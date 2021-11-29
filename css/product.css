@@ -1,0 +1,125 @@
+
+
+.title{
+    background: url(../image/beefsteak.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title .filter{
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+}
+
+.title .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.title .row .content{
+    flex:1 1 42rem;
+}
+
+.title .row .content h3{
+    color:white;
+    font-size: 4.5rem;
+    margin: 3rem 0 2rem 0;
+}
+
+.title .row .content .main-content{
+    display: flex;
+    align-items: center;
+}
+.title .row .content .main-content .col{
+    margin: 2.5rem;
+}
+.title .row .content .main-content .col span{
+    color:white;
+    font-size: 1.8rem;
+}
+
+.title .row .content p{
+    color:var(--white-dark);
+    font-size: 1.8rem;
+    line-height: 1;
+    padding:1rem 0;
+}
+
+.title .row .content .main-content  i{
+    font-size: 1.5rem;
+    color:var(--yellow-dark);
+}
+
+/* main body */
+
+.main {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 5rem;
+    float: left;
+}
+
+.main .left {
+    width: 100%;
+    height: fit-content;
+    float: left;
+}
+.main .right {
+    width: 100%;
+    height: fit-content;
+    float: left;
+}
+
+.main h3{
+    font-size: 2rem;
+    padding: 0 0 1rem;
+    color: var(--black);
+}
+
+.main .box .box1-nd{
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.main .box .box1-nd i{
+    margin-right: 1rem;
+    color: var(--purple-light);
+    font-size: 1.8rem;
+}
+
+.main span{
+    color: var(--black);
+    font-size: 1.5rem;
+}
+
+.main p{
+    color: var(--black);
+    font-size: 1.5rem;
+}
+
+@media (max-width:540px){
+
+    .title .row .content p, 
+    .title .row .content .main-content .col span, 
+    .title .row .content .main-content i{
+        font-size: 80%;
+    }
+
+    .title .row .content .main-content .col{
+        margin: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main .left {
+        width: 30%;
+    }
+    .main .right {
+        width: 70%;
+    }
+}

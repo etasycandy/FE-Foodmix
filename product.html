@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="css/product.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+<body>
+    <!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-hamburger"></i> Food<span>mix</span> </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>Sign In</h3>
+        <span>Username</span>
+        <input type="email" name="" class="box" placeholder="Enter your email" id="">
+        <span>Password</span>
+        <input type="password" name="" class="box" placeholder="Enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> Remember me</label>
+        </div>
+        <input type="submit" value="Sign In" class="btn">
+        <p>Forget password ? <a href="#">Click here!</a></p>
+        <p>Don't have an account ? <a href="#" id="register">Create one!</a></p>
+    </form>
+
+</div>
+
+<!-- register form  -->
+
+<div class="register-form-container">
+
+    <div id="close-register-btn" class="fas fa-times"></div>
+
+    <form action="" method="POST" id="register-form">
+        <h3>Register</h3>
+
+        <div class="form-group">
+            <span>Username</span>
+            <input type="text" name="username" class="box" placeholder="Enter your username" id="username">
+            <span class="form-message"></span>
+        </div>
+        
+        <div class="form-group">
+            <span>Password</span>
+            <input type="password" name="password" class="box" placeholder="Enter your password" id="password">
+            <span class="form-message"></span>
+        </div>
+
+        <div class="form-group">
+            <span>Email</span>
+            <input type="email" name="email" class="box" placeholder="Enter your email" id="email">
+            <span class="form-message"></span>
+        </div>
+        
+        <div class="form-group">
+            <span>Mobile number</span>
+            <input type="text" name="fax" class="box" placeholder="+84 " id="fax">
+            <span class="form-message"></span>
+        </div>
+        
+        <div class="form-group">
+            <span>Birthday</span>
+            <input type="date" name="bod" class="box" id="bod">
+            <span class="form-message"></span>
+        </div>
+        
+        <div class="form-group">
+            <span>Gender</span>
+            <select class="box" name="gender" id="gender">
+                <option value="Nam">Nam</option>
+                <option value="Nữ">Nữ</option>
+                <option value="Khác">Khác</option>
+            </select>
+        </div>
+        
+        <input type="submit" value="Register" class="btn">
+    </form>
+
+</div>
+
+<!-- title section starts  -->
+
+<div class="title">
+
+    <div class="filter">
+
+        <section class="row">
+        
+            <div class="content">
+                <h3>Beef Steak</h3>
+                <div class="main-content">
+                    <div class="col" style="margin-left: 0;">
+                        <p>Phân loại</p>
+                        <span>Ăn sáng</span>
+                    </div>
+                    <div class="col">
+                        <p>Thời gian chuẩn bị</p>
+                        <span>00 phút</span>
+                    </div>
+                    <div class="col">
+                        <p>Thời gian nấu</p>
+                        <span>00 phút</span>
+                    </div>
+                    <div class="col">
+                        <p>Đánh giá</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+
+    </div>
+
+</div>
+
+<!-- title section ense  -->
+
+<section class="main" style="display: block">
+    <div class="left" style="margin-left: 0;">
+        <div class="box">
+            <h3>Nguyên liệu</h3>
+            <div class="box1-nd">
+                <i class="fas fa-check-circle"></i>
+                <span>500 gram thịt bò</span>
+            </div>
+            <div class="box1-nd">
+                <i class="fas fa-check-circle"></i>
+                <span>Nguyên liệu 2</span>
+            </div>
+        </div>
+    </div>
+    <div class="right" style="margin-right: 0;">
+        <div class="box">
+            <h3>Giới thiệu món ăn</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur assumenda ullam reiciendis! Laboriosam enim expedita, sapiente temporibus quibusdam voluptatem possimus!    
+            </p>
+        </div>
+        <div class="box" style="margin-top: 3rem;">
+            <h3>Cách chế biến</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid incidunt recusandae mollitia blanditiis accusantium esse. Ratione voluptates vitae qui, rem accusamus a temporibus sit earum nobis sequi voluptatibus praesentium ut explicabo ducimus! Saepe eum expedita perferendis nisi sunt repudiandae excepturi!
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-concierge-bell"></i>
+        <div class="content">
+            <h3>All Free</h3>
+            <p>variety of foods</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-heartbeat"></i>
+        <div class="content">
+            <h3>Decent Recipe</h3>
+            <p>for your health & others</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+        </div>
+
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>Extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>Contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> abc12345@gmail.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit"> Created by <span>Foodmix</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+
+    Validator({
+        form: '#register-form',
+        errorSelector: '.form-message',
+        rules: [
+            Validator.isRequired('#username', 'Vui lòng nhập Username!'),
+            Validator.isRequired('#password', 'Vui lòng nhập Password!'),
+            Validator.isRequired('#email'),
+            Validator.isEmail('#email', 'Trường này phải là Email'),
+            Validator.isRequired('#fax', 'Vui lòng nhập Mobile number!'),
+            Validator.isRequired('#bod', 'Vui lòng nhập Birthday!'),
+        ],
+        onSubmit: function (data) {
+            console.log(data);
+        }
+    });
+
+</script>
+
+</body>
+</html>
