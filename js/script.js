@@ -4,6 +4,17 @@ document.querySelector('#search-btn').onclick = () =>{
   searchForm.classList.toggle('active');
 }
 
+// heart-tab
+let heartTab = document.querySelector('.heart-tab-container');
+
+document.querySelector('#heart-tab').onclick = () =>{
+  heartTab.classList.toggle('active');
+}
+
+document.querySelector('#close-heart-btn').onclick = () =>{
+  heartTab.classList.remove('active');
+}
+
 // login-form
 let loginForm = document.querySelector('.login-form-container');
 

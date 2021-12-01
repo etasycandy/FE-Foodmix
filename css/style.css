@@ -203,6 +203,102 @@ section{
     background:var(--dark-color);
 }
 
+
+/* Heart tab */
+
+.heart-tab-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(255,255,255,.9);
+    position:fixed;
+    top:-105%; left:0;
+    z-index: 10000;
+    height:100%;
+    width:100%;
+}
+
+.heart-tab-container.active{
+    top:0;
+}
+
+.heart-tab-container #close-heart-btn{
+    position: absolute;
+    top:1.5rem; right:2.5rem;
+    font-size: 5rem;
+    color:var(--black);
+    cursor: pointer;
+}
+
+.heart-tab-container .product{
+    background:#fff;
+    border:var(--border);
+    width:60rem;
+    padding:2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+
+.heart-tab-container .product h3{
+    font-size: 2.5rem;
+    padding:.5rem 0;
+    text-transform: uppercase;
+    color:var(--black);
+    text-align: center;
+}
+
+.heart-tab-container .product .box{
+    width: 100%;
+    font-size: 1.6rem;
+    border:var(--border);
+    border-radius: .5rem;
+    padding:1rem 2rem;
+    color:var(--black);
+    margin:2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart-tab-container .product .box:hover{
+    border:var(--border-hover);
+}
+
+.heart-tab-container .product .box .image{
+    width: 25%;
+}
+
+.heart-tab-container .product .box .image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.heart-tab-container .product .box .content{
+    width: 70%;
+    padding-left: 3rem;
+}
+
+.heart-tab-container .product .box .content h4{
+    font-size: 1.7rem;
+    padding-bottom: .5rem;
+    text-transform: uppercase;
+    color:var(--black);
+}
+
+.heart-tab-container .product .box .content .stars{
+    padding-top: .5rem;
+}
+
+.heart-tab-container .product .box .content .stars i{
+    font-size: 1.7rem;
+    color:var(--green);
+}
+
+.heart-tab-container .product .box .heart-icon{
+    font-size: 3rem;
+    color:var(--green);
+}
+
 /* Login form */
 
 .login-form-container{
@@ -301,14 +397,14 @@ section{
     justify-content: center;
     background:rgba(255,255,255,.9);
     position:fixed;
-    top:0; right:-105%;
+    top:0; left:-105%;
     z-index: 10000;
     height:100%;
     width:100%;
 }
 
 .register-form-container.active{
-    right:0;
+    left:0;
 }
 
 .register-form-container form{
@@ -399,7 +495,7 @@ form .box:focus{
 }
 
 .home .row .books-slider a img{
-    height: 25rem;
+    width: 100%;
 }
 
 .home .row .books-slider a:hover img{
@@ -823,8 +919,6 @@ form .box:focus{
 .loader-container img{
     height: 20rem;
 }
-
-
 
 
 
