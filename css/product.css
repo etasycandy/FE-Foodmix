@@ -67,11 +67,6 @@
     height: fit-content;
     float: left;
 }
-.main .right {
-    width: 100%;
-    height: fit-content;
-    float: left;
-}
 
 .main h3{
     font-size: 2rem;
@@ -101,6 +96,79 @@
     color: var(--black);
     font-size: 1.5rem;
 }
+
+.main .right {
+    width: 100%;
+    height: fit-content;
+    float: left;
+}
+
+.main .right .box-processing{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+
+.main .right .box-processing .step{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .right .box-processing .step .number{
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: solid 7px white;
+    position: relative;
+}
+
+.main .right .box-processing .step .number p{
+    font-size: 2.5rem;
+    color: white;
+    z-index: 1;
+}
+
+.main .right .box-processing .step .number .verticalLine{
+    width: 5px;
+    background-color: var(--green);
+    height: 15rem;
+    float: left;
+    position: absolute;
+    top: -2rem;
+    left: 2.1rem;
+}
+
+.main .right .box-processing .content-processing{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .right .box-processing .content-processing .image{
+    width: 15%;
+}
+
+.main .right .box-processing .content-processing .image img{
+    width: 100%;
+}
+
+.main .right .box-processing .content-processing p{
+    width: 85%;
+    padding-left: 2.5rem;
+}
+
+
+/* Reviews */
 
 .reviews .add-reviews{
     height: fit-content;
