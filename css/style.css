@@ -572,7 +572,7 @@ form .box:focus{
 }
 
 .featured .featured-slider .box .image img{
-    height: 25rem;
+    width: 100%;
 }
 
 .featured .featured-slider .box .icons{
@@ -731,25 +731,15 @@ form .box:focus{
     flex:1 1 42rem;
 }
 
-/* .deal .image img{
-    width: 100%;
-} */
-
-.deal .content h3{
-    color:var(--green);
-    font-size: 2.5rem;
-    padding-bottom: .5rem;
-}
-
 .deal .content h1{
     color:whitesmoke;
     font-size: 4rem;
 }
 
 .deal .content p{
-    padding:1rem 0;
+    padding-bottom: 1rem;
     color:whitesmoke;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 2;
 }
 
@@ -837,13 +827,18 @@ form .box:focus{
 .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:1.5rem;
+    gap: 2rem;
+}
+
+.footer .box-container .box{
+    padding: 2rem;
 }
 
 .footer .box-container .box h3{
     font-size: 2.2rem;
     color:var(--black);
     padding:1rem 0;
+    text-align: center;
 }
 
 .footer .box-container .box a{
@@ -851,11 +846,13 @@ form .box:focus{
     font-size: 1.4rem;
     color:var(--light-color);
     padding:1rem 0;
+    padding-left: 1rem;
 }
 
 .footer .box-container .box a i{
     color:var(--green);
     padding-right: .5rem;
+    padding-left: 1rem;
 }
 
 .footer .box-container .box a:hover i{

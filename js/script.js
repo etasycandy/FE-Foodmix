@@ -190,7 +190,7 @@ function loader(){
 }
 
 function fadeOut(){
-  setTimeout(loader, 3000);
+  setTimeout(loader, 0000);
 }
 
 var swiper = new Swiper(".books-slider", {
@@ -235,7 +235,7 @@ var swiper = new Swiper(".featured-slider", {
     768: {
       slidesPerView: 3,
     },
-    1024: {
+    1280: {
       slidesPerView: 4,
     },
   },
@@ -256,7 +256,7 @@ var swiper = new Swiper(".arrivals-slider", {
     768: {
       slidesPerView: 2,
     },
-    1024: {
+    1280: {
       slidesPerView: 3,
     },
   },

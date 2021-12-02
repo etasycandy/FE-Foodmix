@@ -102,6 +102,81 @@
     font-size: 1.5rem;
 }
 
+.reviews .add-reviews{
+    height: fit-content;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews .add-reviews .box{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px var(--white-dark);
+    border-radius: 20px;
+}
+
+.reviews .add-reviews .box:hover{
+    border-color: black;
+}
+
+.reviews .add-reviews .box .avt{
+    width: 25%;
+    padding: 1.5rem;
+}
+
+.reviews .add-reviews .box .avt img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews .add-reviews .box .content{
+    width: 75%;
+}
+
+.reviews .add-reviews .box .content .vote-start{
+    margin: 1rem;
+}
+
+.reviews .add-reviews .box .content .vote-start i{
+    font-size: 1.7rem;
+    color:var(--green);
+}
+
+.reviews .add-reviews .box .content form{
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.reviews .add-reviews .box .content form .box{
+    width: 100%;
+    margin: 0.7rem 0;
+    font-size: 1.6rem;
+    border: var(--border);
+    border-radius: 0.5rem;
+    padding: 1rem 1.2rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.reviews .add-reviews .box .content form .box:focus{
+    border-color: green;
+}
+
+
+
+
+@media (min-width:920px) {
+    .reviews .add-reviews .box{
+        width: 60%;
+    }
+}
+
 @media (max-width:540px){
 
     .title .row .content p, 
